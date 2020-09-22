@@ -1,0 +1,173 @@
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: #F1B509 url(img/bg-hero.jpg) no-repeat center center;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .masthead-content .masthead-heading,
+header.masthead .masthead-content .masthead-subheading {
+  text-shadow: 0 0 20pt black, 0 0 5pt black;
+}
+
+.masthead-content p:last-child {
+  margin-top: 2rem;
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+
+  .masthead-content p:last-child {
+    margin-top: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+
+
+/****************************************************************************/
+
+.contacto ul {
+ margin: 1ex 1em;
+}
+
+.contacto li {
+ display: block;
+ margin-top: 1.5ex;
+}
+
+.contacto li span {
+ display: inline-block;
+ width: 5em;
+}
+
+.facebook {
+ padding-left: 24px;
+ background: url(img/facebook.png) no-repeat left center;
+}
+
+.twitter {
+ padding-left: 24px;
+ background: url(img/twitter.png) no-repeat left center;
+}
+
+.email {
+ padding-left: 24px;
+ background: url(img/email.png) no-repeat left center;
+}
+
+.tel {
+ padding-left: 24px;
+ background: url(img/telephone.png) no-repeat left center;
+}
+
+.sms {
+ padding-left: 24px;
+ background: url(img/phone.png) no-repeat left center;
+}
+
