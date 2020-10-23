@@ -171,3 +171,34 @@ header.masthead .masthead-content .masthead-subheading {
  background: url(img/phone.png) no-repeat left center;
 }
 
+
+.grilla {
+ margin: 8ex auto;
+ border-collapse: separate;
+}
+
+.grilla td, .grilla th {
+ border: 1px solid #F1B509;
+ padding: 1ex 2em;
+ border-radius: 0.5ex;
+}
+
+.grilla th {
+ text-align: center;
+ color: white;
+
+ background-color: #ee0979;
+ border-color: #ee0979;
+ background-color: #F1B509;
+ border-color: #F1B509;
+}
+
+
+.main-page .container {
+ margin-top: 8ex;
+ margin-bottom: 8ex;
+}
+
+.main-page h1 {
+ text-align: center;
+}
